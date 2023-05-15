@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #dedede;
+    overflow-x: hidden;
+  font-family: 'Mulish', sans-serif;
+  background-image: url('../img/about-bg.jpg');
+  background-size: cover;
+  backgr
+  }
+
+  .box {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    width: 40%;
+    height: 20%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+
+  }
+
+  h1 {
+    font-size: 30px;
+  
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+ 
+    width: 80%;
+    line-height: 30px;
+  }
+  navbar {
+     
+      width: 100vw;
+      position: absolute;
+      top: 0;
+  }
+
+  navbar img {
+      
+      margin-left: 10px;
+      height: 80px;
+  }
+
+  @media (max-width: 991px) {
+    /*Para celulares*/
+  
+  
+  
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #dedede;
+      overflow-x: hidden;
+    font-family: 'Mulish', sans-serif;
+    background-image: url('../img/about-bg.jpg');
+    background-size: cover;
+  
+    }
+  
+    .box {
+    
+        text-align: center;
+        background-color: #ffffff;
+        padding: 20px;
+        width: 90vw;       
+        border-radius: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+          height: 40vh;
+      top: 10%;
+      align-content: flex-start;
+      
+
+  
+    }
+  
+    h1 {
+      font-size: 6em;
+      width: 100vw;
+      margin-bottom: 10px;
+     
+    }
+  
+    p {
+      font-size: 3em;
+      margin: 0;   
+      width: 80vw;
+      line-height: 1.5em;
+      padding: 20px;
+     
+      overflow-wrap: break-word;
+       }
+
+  
+    navbar {
+       
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+  
+    navbar img {
+        
+        margin: 0 auto;
+        height: 350px;
+        position: absolute;
+        left: 10%;
+        padding-top: 200px;
+    }
+  
+  
+  
+  
+  
+  }
